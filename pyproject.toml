@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tiktok-loader"
+version = "0.1.0"
+description = ""
+authors = ["nikita <nikita.dyachkov@casafari.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium-wire = "^5.1.0"
+blinker = "1.7.0"
+selenium-stealth = "^1.0.6"
+pyautogui = "^0.9.54"
+ruff = "^0.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
